@@ -11,6 +11,9 @@ def func():
     return None
 
 
+def func2():
+    return None
+
 @login_required(login_url='/users/sign_in')
 def product_list(request):
     search = request.GET.get('search')
